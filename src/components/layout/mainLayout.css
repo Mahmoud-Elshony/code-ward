@@ -1,0 +1,129 @@
+.nake-name-style {
+  background-size: contain !important;
+  background-repeat: no-repeat;
+  height: 124px;
+  color: #dfa450;
+  background-image: url(./shony-mark-shape.png);
+  display: inline-block;
+  background-position-y: 84px;
+}
+h1 {
+  font-size: 4.3rem !important;
+}
+.section-sercies{
+  background:#2a2c39
+}
+/* .mahmoud-img{
+    top: -300px !important;
+}
+.section-2{
+    top: 80% !important;
+    z-index: 11;
+    background-color: #333 !important;
+} */
+/* Add your existing styles here */
+.warda-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.info {
+  flex: 1;
+  min-width: 300px;
+}
+
+.image-and-sochial {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow-y: hidden;
+}
+
+.mahmoud-img {
+  width: 65% !important;
+  height: 105% !important;
+  position: relative;
+  top: 7%;
+}
+
+/* Media query for large screens */
+@media (min-width: 992px) {
+  .info,
+  .image-and-sochial {
+    flex: 1 1 50%;
+  }
+  .info {
+    padding-right: 2rem;
+  }
+}
+
+/* Media query for small screens */
+@media (max-width: 991px) {
+  .info,
+  .image-and-sochial {
+    flex: 1 1 100%;
+    text-align: center;
+  }
+  .image-and-sochial {
+    order: -1 !important;
+    overflow-y: visible !important;
+  }
+  .info h1 {
+    padding-right: 0;
+    order: 0;
+    font-size: 28px !important;
+  }
+  .nake-name-style {
+    /* top: 0 !important; */
+    /* height: 50px !important */
+    background-position-y: 38px;
+  }
+}
+.circle-top-left {
+  display: inline-block;
+  position: absolute;
+  border-radius: 50%;
+  border: 1px solid #fff2;
+}
+.circle-top-left.one,
+.circle-top-left.one-1 {
+  height: 300px;
+  width: 300px;
+  top: -150px;
+  left: -150px;
+}
+.circle-top-left.two,
+.circle-top-left.two-2 {
+  height: 400px;
+  width: 400px;
+  top: -200px;
+  left: -200px;
+}
+.circle-top-left.three ,
+.circle-top-left.three-3
+{
+  height: 500px;
+  width: 500px;
+  top: -250px;
+  left: -250px;
+}
+.circle-contaner {
+  position: absolute;
+  top: -50px;
+}
+.circle-contaner-down {
+  position: relative;
+  bottom: 0;
+}
+.circle-contaner-card{
+  position:absolute;
+  right: 0;
+  top: -70px;
+}
+.circle-contaner-card-bottom{
+  position: absolute;
+  bottom: -70px;
+  right: 0;
+}

@@ -1,0 +1,41 @@
+li.nav-item a:hover{
+    color: #fff !important;
+    opacity: 1
+}
+li.nav-item a,.hire-me-btn{
+    transition: 0.7s;
+}
+li.nav-item a::after{
+    display: block;
+    content: "";
+    position: relative;
+    background-image: url(./menu-hover-shape.png);
+    /* bottom: 0; */
+    /* left: 0; */
+    background-size: cover;
+    top:-25px;
+    height: 20px;
+    width: 100%;
+    /* background-color: #fff; */
+    visibility: hidden;
+    transform: scaleX(0);
+    transition: transform 0.3s ease-in-out;
+}
+
+li.nav-item a:hover::after{
+    visibility: visible;
+    transform: scale(1.75);
+}
+.hire-me-btn:hover{
+    background-color: #4443 !important;
+    color: #eee !important;
+    transform: scale(1.05);
+    transition: transform 0.3s ease-in-out;
+}
+.warda-contaner{
+    background-color: #252734 !important;
+    width: 100% !important;
+    height: 85% !important;
+    /* position: ab !important; */
+    top: 0 !important;
+}

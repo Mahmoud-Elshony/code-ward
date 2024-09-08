@@ -1,0 +1,17 @@
+*, ::after, ::before {
+    box-sizing: border-box;
+    padding:0;
+    margin:0;
+}
+#root{
+    background-color:#252734;
+    font-family: 'Geometry Soft Pro', sans-serif;
+    
+}
+@font-face {
+    font-family: 'Geometry Soft Pro';
+    src: url('./assets/fonts/Geometry Soft Pro-Bold N.otf') format('opentype');
+    font-weight: bold;
+    font-style: normal;
+}
+  
