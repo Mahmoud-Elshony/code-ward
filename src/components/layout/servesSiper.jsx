@@ -92,29 +92,29 @@ export default function ServicesSwiper() {
                 <span className="circle-top-left three"></span>
               </div>
               <div className="img-fluid col-3">
-                <img src="service-icon-1.webp" />
+                <img src="service-icon-2.webp" />
               </div>
-              <h4 className="text-white pt-5">UI/UX Design</h4>
+              <h4 className="text-white pt-5">BackEnd</h4>
               <ul className="text-white-50 pt-3 list-unstyled">
                 <li className="py-1">
                   <MdKeyboardDoubleArrowRight />
-                  <span className="ms-3">Landing Pages</span>
+                  <span className="ms-3">JavaScript</span>
                 </li>
                 <li className="py-1">
                   <MdKeyboardDoubleArrowRight />
-                  <span className="ms-3">User Flow</span>
+                  <span className="ms-3">NodeJS</span>
                 </li>
                 <li className="py-1">
                   <MdKeyboardDoubleArrowRight />
-                  <span className="ms-3">Wireframing</span>
+                  <span className="ms-3">MongoDB</span>
                 </li>
                 <li className="py-1">
                   <MdKeyboardDoubleArrowRight />
-                  <span className="ms-3">Prototyping</span>
+                  <span className="ms-3">Express</span>
                 </li>
                 <li className="py-1">
                   <MdKeyboardDoubleArrowRight />
-                  <span className="ms-3">Mobile App Design</span>
+                  <span className="ms-3">Rest :api</span>
                 </li>
               </ul>
               <div className="circle-contaner-card-bottom">
@@ -137,25 +137,25 @@ export default function ServicesSwiper() {
                 <span className="circle-top-left three"></span>
               </div>
               <div className="img-fluid col-3">
-                <img src="service-icon-1.webp" />
+                <img src="service-icon-3.webp" />
               </div>
-              <h4 className="text-white pt-5">UI/UX Design</h4>
+              <h4 className="text-white pt-5">FronEnd</h4>
               <ul className="text-white-50 pt-3 list-unstyled">
                 <li className="py-1">
                   <MdKeyboardDoubleArrowRight />
-                  <span className="ms-3">Landing Pages</span>
+                  <span className="ms-3">HTML5/Css3</span>
                 </li>
                 <li className="py-1">
                   <MdKeyboardDoubleArrowRight />
-                  <span className="ms-3">User Flow</span>
+                  <span className="ms-3">Bootstrap</span>
                 </li>
                 <li className="py-1">
                   <MdKeyboardDoubleArrowRight />
-                  <span className="ms-3">Wireframing</span>
+                  <span className="ms-3">ReactJS</span>
                 </li>
                 <li className="py-1">
                   <MdKeyboardDoubleArrowRight />
-                  <span className="ms-3">Prototyping</span>
+                  <span className="ms-3">Animation</span>
                 </li>
                 <li className="py-1">
                   <MdKeyboardDoubleArrowRight />
@@ -170,7 +170,6 @@ export default function ServicesSwiper() {
             </Card>
           )}
         </SwiperSlide>
-
       </Swiper>
     </>
   );

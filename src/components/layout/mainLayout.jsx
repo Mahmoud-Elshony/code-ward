@@ -2,7 +2,8 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "./mainLayout.css";
 import { HiArrowDownTray } from "react-icons/hi2";
 import ServicesSwiper from "./servesSiper";
-
+import codewardImgPath from "../../assets/imgs/mahmoud-whitoutbg1.png";
+import { FaFacebook, FaGithub, FaLinkedin } from "react-icons/fa";
 export default function MainLayout() {
   return (
     <>
@@ -24,30 +25,48 @@ export default function MainLayout() {
           </button>
         </div>
         <div className="image-and-sochial">
+          <div className="circle-contaner-sochial">
+            <span className="circle-top-left one"></span>
+            <span className="circle-top-left two">
+              {/* <FaFacebook className="icon 25icon1"></FaFacebook> */}
+              <FaFacebook className="icon icon1"></FaFacebook>
+              <FaLinkedin  className="icon icon2" 
+                style={{
+                  top: '100px',
+                  right: '-305px',
+                }}/>
+              <FaGithub  className="icon icon3" 
+                style={{
+                  top: '243px',
+                  right: '-260px',
+                }}
+              />
+            </span>
+
+            <span className="circle-top-left three"></span>
+          </div>
           <img
-            src="./mahmoud-whitoutbg1.png"
+            src={codewardImgPath}
             className="mahmoud-img img-fluid"
             alt="Mahmoud Elshony"
           />
         </div>
       </section>
-      <div className="circle-contaner-down">
-        <span className="circle-top-left one-1">اتقى الله</span>
-        <span className="circle-top-left two-2"></span>
-        <span className="circle-top-left three-3"></span>
+      <div className="circle-contaner" style={{ top: 0, position: "relative" }}>
+        <span className="circle-top-left one">اتقى الله</span>
+        <span className="circle-top-left two"></span>
+        <span className="circle-top-left three"></span>
       </div>
       <section className="section-sercies d-flex  text-white pt-5 position-relative">
         <div className="col container pt-5 ">
           <h5 className="f">My Services</h5>
           <h2 className="text-start ">Service Provide For My Clients</h2>
-          <div className="row mt-5">
+          <div className=" mt-5">
             <ServicesSwiper></ServicesSwiper>
           </div>
         </div>
       </section>
-      {/* <section className="d-flex text-white pt-5 vh-100">
-        <div className="col container pt-5 "></div>
-      </section> */}
+
     </>
   );
 }
