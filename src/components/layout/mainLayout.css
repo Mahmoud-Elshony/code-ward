@@ -26,11 +26,11 @@ h1 {
   flex: 1;
   min-width: 300px;
 }
-.btn{
+.btn {
   cursor: pointer;
   /* z-index:143; */
 }
-.btn:hover{
+.btn:hover {
   background-color: #4443 !important;
   color: #eee !important;
   transform: scale(1.05);
@@ -49,6 +49,7 @@ h1 {
   height: 105% !important;
   position: relative;
   top: 7%;
+  z-index: 0;
 }
 
 /* Media query for large screens */
@@ -106,21 +107,22 @@ h1 {
     transform: rotate(-74deg);
     top: -250px;
   }
-  .circle-top-left.two .icon{
+  .circle-top-left.two .iconLink {
     rotate: 73deg !important;
   }
-  .circle-top-left.two .icon.icon1{
-    right: -143px !important;
+  .circle-top-left.two .iconLink.icon1 {
+    right: -128px !important;
   }
-  .circle-top-left.two .icon.icon2{
-    right: -183px !important;
+  .circle-top-left.two .iconLink.icon2 {
+    /* right: -183px !important; */
     /* top: -258px; */
+    top: 113px !important;
+    left: 187px !important;
   }
-  .circle-top-left.two .icon.icon3{
-    right: -122px !important;
-    top: 277px !important;
+  .circle-top-left.two .iconLink.icon3 {
+    top: 300px !important;
+    left: 117px !important;
   }
-
 }
 
 @media (min-width: 992px) {
@@ -149,23 +151,29 @@ h1 {
   top: -200px;
   left: -200px;
 }
-.circle-top-left.two .icon {
+.circle-top-left.two .iconLink {
   /* z-index:143; */
-  right: -255px;
+  right: -263px;
   position: relative;
-  width: 50px;
+  width: 40px;
   display: inline-block;
-  height: 48px;
-  padding: 8px;
+  height: 40px;
   background: #252734;
-  border:2px solid #fff2;
-  border-radius:50%;
+  border-radius: 50%;
+  color: #fff !important;
 }
-.icon:hover{
-  background: #fff;
-  /* cursor: pointer; */
+.iconLink svg {
+  padding: 10px;
+  border-radius: 50%;
+  border: 1px solid #fff;
+  /* transition: all 0.3 ease */
+}
+.iconLink svg:hover {
   color: #252734;
+  background: #fff;
+  transition: all 0.3s ease-in-out;
 }
+
 .circle-top-left.three {
   height: 500px;
   width: 500px;
@@ -205,4 +213,5 @@ h1 {
 
 .circle-contaner-sochial span:nth-child(2) {
   border: 2px solid #dfa450;
+  z-index: 3;
 }

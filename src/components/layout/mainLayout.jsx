@@ -29,25 +29,39 @@ export default function MainLayout() {
             <span className="circle-top-left one"></span>
             <span className="circle-top-left two">
               {/* <FaFacebook className="icon 25icon1"></FaFacebook> */}
-              <FaFacebook className="icon icon1"></FaFacebook>
-              <FaLinkedin  className="icon icon2" 
+              <a
+                href="https://facebook.com/mido143"
+                className="iconLink absolute icon1"
+              >
+                <FaFacebook size={40}></FaFacebook>
+              </a>
+              <a
+                href="https://www.linkedin.com/in/mahmoud-shony/"
+                className="iconLink absolute icon2"
                 style={{
                   top: '100px',
-                  right: '-305px',
-                }}/>
-              <FaGithub  className="icon icon3" 
-                style={{
-                  top: '243px',
-                  right: '-260px',
+                  left: '323px'
                 }}
-              />
+              >
+                <FaLinkedin size={40} />
+              </a>
+              <a
+                href="https://github.com/Mahmoud-Elshony"
+                className="iconLink absolute icon3"
+                style={{
+                  top: '240px',
+                  left: '288px'
+                }}
+              >
+                <FaGithub size={40} />
+              </a>
             </span>
 
             <span className="circle-top-left three"></span>
           </div>
           <img
             src={codewardImgPath}
-            className="mahmoud-img img-fluid"
+            className="mahmoud-img rounded-full"
             alt="Mahmoud Elshony"
           />
         </div>
@@ -66,7 +80,6 @@ export default function MainLayout() {
           </div>
         </div>
       </section>
-
     </>
   );
 }
