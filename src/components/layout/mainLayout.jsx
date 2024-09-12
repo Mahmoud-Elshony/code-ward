@@ -32,6 +32,7 @@ export default function MainLayout() {
               <a
                 href="https://facebook.com/mido143"
                 className="iconLink absolute icon1"
+                target="_blank"
               >
                 <FaFacebook size={40}></FaFacebook>
               </a>
@@ -42,6 +43,7 @@ export default function MainLayout() {
                   top: '100px',
                   left: '323px'
                 }}
+                target="_blank"
               >
                 <FaLinkedin size={40} />
               </a>
@@ -52,6 +54,8 @@ export default function MainLayout() {
                   top: '240px',
                   left: '288px'
                 }}
+                target="_blank"
+
               >
                 <FaGithub size={40} />
               </a>
