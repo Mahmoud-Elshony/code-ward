@@ -22,7 +22,7 @@ export default function HeaderCom(){
   }, []);
     return (
       <>
-        <header ref={headerElemnt} className="navbar navbar-expand-lg sticky-top top mx-5 z-5">
+        <header ref={headerElemnt} className="navbar navbar-expand-lg sticky-top top px-2 z-5">
           <div className="container-fluid m-3 text-center text-sm-start">
             <a className="navbar-brand col" href="#">
               <img className="rounded-5" src={Logo} width="171" />

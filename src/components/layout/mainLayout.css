@@ -63,7 +63,7 @@ h1 {
   }
   .image-and-sochial img {
     top: 0;
-    left: -50px !important;
+    left: -130px !important;
   }
 }
 
@@ -208,7 +208,7 @@ h1 {
 }
 
 .circle-contaner-sochial span {
-  clip-path: ellipse(42% 53% at 70% 42%);
+  clip-path: ellipse(45% 53% at 65% 42%);
 }
 
 .circle-contaner-sochial span:nth-child(2) {

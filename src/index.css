@@ -10,7 +10,7 @@
 @font-face {
     font-family: 'Geometry Soft Pro';
     src: url('./assets/fonts/Geometry Soft Pro-Bold N.otf') format('opentype');
-    font-weight: bold;
+    /* font-weight: bold; */
     font-style: normal;
 }
   
