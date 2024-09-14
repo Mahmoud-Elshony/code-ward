@@ -12,7 +12,7 @@ function App() {
     <MainLayout></MainLayout>
     <SpecialSkilsComponent></SpecialSkilsComponent>
     <CounterSection></CounterSection>
-    <TemplateShowcase></TemplateShowcase>
+    {/* <TemplateShowcase></TemplateShowcase> */}
   </>
   )
 }
