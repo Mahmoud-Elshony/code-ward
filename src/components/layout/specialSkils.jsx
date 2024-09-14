@@ -13,9 +13,15 @@ export default function SpecialSkilsComponent() {
         <h2 style={{ color: "white" }} className="fs-1">
           My Special Skill Field Here.
         </h2>
-        <button className="btn border border-1 mt-5 px-5 py-3 rounded-5 text-white">
-          Get Resume <HiArrowDownTray className="fs-5 m-1" />
-        </button>
+        <a
+          href="https://drive.google.com/file/d/1IBIJnG2tpE9le2lHWeBaw0WoonAfBZ7N/view?usp=sharing"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <button className="btn border border-1 mt-5 px-5 py-3 rounded-5 text-white">
+            Get Resume <HiArrowDownTray className="fs-5 m-1" />
+          </button>
+        </a>
       </div>
       <div className="col-12 col-md-6 py-5 px-md-5 px-xxl-0">
         <SingleSkil tag="Communication" value="80"></SingleSkil>

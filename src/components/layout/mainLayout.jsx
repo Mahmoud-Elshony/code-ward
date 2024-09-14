@@ -20,9 +20,14 @@ export default function MainLayout() {
             Mahmoud El<span className="nake-name-style">shony</span>
           </h1>
           <p className="text-white-50">MERN Stack Developer</p>
-          <button className="btn border border-1 mt-5 px-5 py-3 rounded-5 text-white" style={{backgroundColor:"#252734"}}>
-            Get Resume <HiArrowDownTray className="fs-5 m-1" />
-          </button>
+          <a href="https://drive.google.com/file/d/1IBIJnG2tpE9le2lHWeBaw0WoonAfBZ7N/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+            <button
+              className="btn border border-1 mt-5 px-5 py-3 rounded-5 text-white"
+              style={{ backgroundColor: "#252734" }}
+            >
+              Get Resume <HiArrowDownTray className="fs-5 m-1" />
+            </button>
+          </a>
         </div>
         <div className="image-and-sochial">
           <div className="circle-contaner-sochial">
@@ -40,8 +45,8 @@ export default function MainLayout() {
                 href="https://www.linkedin.com/in/mahmoud-shony/"
                 className="iconLink absolute icon2"
                 style={{
-                  top: '100px',
-                  left: '323px'
+                  top: "100px",
+                  left: "323px",
                 }}
                 target="_blank"
               >
@@ -51,11 +56,10 @@ export default function MainLayout() {
                 href="https://github.com/Mahmoud-Elshony"
                 className="iconLink absolute icon3"
                 style={{
-                  top: '240px',
-                  left: '288px'
+                  top: "240px",
+                  left: "288px",
                 }}
                 target="_blank"
-
               >
                 <FaGithub size={40} />
               </a>

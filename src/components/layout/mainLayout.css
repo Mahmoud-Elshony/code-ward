@@ -3,7 +3,7 @@
   background-repeat: no-repeat;
   height: 124px;
   color: #dfa450;
-  background-image: url(./shony-mark-shape.png);
+  background-image: url(/src/assets/imgs/shony-mark-shape.png);
   display: inline-block;
   background-position-y: 84px;
 }
