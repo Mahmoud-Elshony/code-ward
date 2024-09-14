@@ -18,9 +18,10 @@ export default function SpecialSkilsComponent() {
         </button>
       </div>
       <div className="col-12 col-md-6 py-5 px-md-5 px-xxl-0">
-        <SingleSkil tag="Comecations" value="28"></SingleSkil>
-        <SingleSkil tag="Coding" value="70"></SingleSkil>
+        <SingleSkil tag="Communication" value="80"></SingleSkil>
+        <SingleSkil tag="Teamwork" value="70"></SingleSkil>
         <SingleSkil tag="Think out of Box" value="114"></SingleSkil>
+        <SingleSkil tag="Flexibility" value="85"></SingleSkil>
       </div>
     </div>
   );

@@ -20,7 +20,7 @@ export default function MainLayout() {
             Mahmoud El<span className="nake-name-style">shony</span>
           </h1>
           <p className="text-white-50">MERN Stack Developer</p>
-          <button className="btn border border-1 mt-5 px-5 py-3 rounded-5 text-white">
+          <button className="btn border border-1 mt-5 px-5 py-3 rounded-5 text-white" style={{backgroundColor:"#252734"}}>
             Get Resume <HiArrowDownTray className="fs-5 m-1" />
           </button>
         </div>

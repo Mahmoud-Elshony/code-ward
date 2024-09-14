@@ -28,10 +28,11 @@ h1 {
 }
 .btn {
   cursor: pointer;
-  /* z-index:143; */
+  z-index:1 !important;
+  position: relative;
 }
 .btn:hover {
-  background-color: #4443 !important;
+  background-color: #444 !important;
   color: #eee !important;
   transform: scale(1.05);
   transition: transform 0.3s ease-in-out;

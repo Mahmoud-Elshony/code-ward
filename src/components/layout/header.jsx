@@ -3,6 +3,7 @@ import React, { useEffect, useRef } from "react";
 import Logo from "/src/assets/imgs/warda1443.png";
 import { MdKeyboardDoubleArrowRight } from "react-icons/md";
 import "./header.css";
+import SwitchButoon from "./darkLightButton";
 export default function HeaderCom(){
   const headerElemnt = useRef();
   const handleScroll = () => {
@@ -39,15 +40,11 @@ export default function HeaderCom(){
                 <li className="nav-item">
                   <a className="nav-link p-0 text-secondary fs-5">Service</a>
                 </li>
-                <li className="nav-item dropdown">
-                  <a className="nav-link p-0 text-secondary fs-5">Blog</a>
-                </li>
-                <li className="nav-item dropdown">
-                  <a className="nav-link p-0 text-secondary fs-5">Pages</a>
-                </li>
                 <li className="nav-item">
                   <a className="nav-link p-0 text-secondary fs-5">Contact</a>
                 </li>
+                {/* switch litgh dark mode */}
+                {/* <SwitchButoon></SwitchButoon> */}
               </ul>
               <div className="d-flex" role="search"></div>
             </div>
