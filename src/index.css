@@ -13,4 +13,6 @@
     /* font-weight: bold; */
     font-style: normal;
 }
-  
+.live-preview:hover {
+    color: #dfa450 !important;
+  }

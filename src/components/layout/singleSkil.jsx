@@ -29,7 +29,9 @@ export default function SingleSkil({ tag, value = 0 }) {
           data-width={wardaValue}
           style={{ width: `${wardaValue}%` }}
         >
-          <span className="skill-percentage">{wardaValue}%</span>
+          <span className="skill-percentage">{wardaValue==114?143:wardaValue}<span style={{
+            color:wardaValue==114?"#dfa450":""
+          }}>%</span></span>
         </div>
       </div>
     </div>

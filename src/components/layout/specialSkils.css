@@ -2,6 +2,19 @@
     background: #2a2c39;
     padding: 25px 25px 30px 25px;
     margin-bottom: 25px;
+    width: 92%;
+}
+@media (min-width: 769px ) {
+    .skill-progress-single-item {
+        coloe:red !important;
+        width: 118%;
+    }
+}
+@media (min-width: 1023px ) {
+    .skill-progress-single-item {
+        coloe:red !important;
+        width: 93% !important;
+    }
 }
 .skill-progress-single-item .tag {
     margin-bottom: 25px;
