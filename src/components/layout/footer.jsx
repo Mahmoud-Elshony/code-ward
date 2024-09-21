@@ -128,7 +128,7 @@ export default function Footer() {
         </div>
       </div>
       {/* <hr style={{ border: "2px #fff solid" }} /> */}
-      <hr style={{ padding: 0, border: "2px #fff solid" }} />
+      <hr style={{ padding: 0, border: ".143px #fff43 solid" }} />
       <div className="container p-4 text-center flex-column-reverse flex-md-row d-flex justify-content-between align-items-center">
         <p>
           
