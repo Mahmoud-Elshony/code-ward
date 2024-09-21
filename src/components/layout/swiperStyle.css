@@ -1,13 +1,6 @@
 .swiper {
   width: 85%;
   padding-top: 50px;
-  padding-bottom: 50px;
-}
-@media (max-width:720px) {
-  .swiper {
-    padding-bottom: 190px;
-  }
-
 }
 
 .swiper-slide {

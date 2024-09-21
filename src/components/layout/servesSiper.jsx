@@ -295,6 +295,7 @@ export default function ServicesSwiper() {
             </div>
           </Card>
         </SwiperSlide>
+        <p id="Skils" style={{opacity:0}}></p>
       </Swiper>
     </>
   );

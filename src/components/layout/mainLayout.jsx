@@ -21,7 +21,7 @@ export default function MainLayout() {
           </h1>
           <p className="text-white-50">MERN Stack Developer</p>
           <a href="https://drive.google.com/file/d/1IBIJnG2tpE9le2lHWeBaw0WoonAfBZ7N/view?usp=sharing" target="_blank" rel="noopener noreferrer">
-            <button
+            <button  id="Service"
               className="btn border border-1 mt-5 px-5 py-3 rounded-5 text-white"
               style={{ backgroundColor: "#252734" }}
             >
@@ -71,15 +71,17 @@ export default function MainLayout() {
             src={codewardImgPath}
             className="mahmoud-img rounded-full"
             alt="Mahmoud Elshony"
+           
           />
         </div>
       </section>
-      <div className="circle-contaner" style={{ top: 0, position: "relative" }}>
+      <div  className="circle-contaner" style={{ top: 0, position: "relative" }}>
         <span className="circle-top-left one">اتقى الله</span>
         <span className="circle-top-left two"></span>
         <span className="circle-top-left three"></span>
       </div>
-      <section className="section-sercies d-flex  text-white pt-5 position-relative">
+      <br />
+      <section  className="section-sercies d-flex  text-white pt-5 position-relative">
         <div className="col container pt-5 ">
           <h5 className="f">My Services</h5>
           <h2 className="text-start ">Service Provide For My Clients</h2>

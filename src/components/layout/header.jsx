@@ -35,13 +35,13 @@ export default function HeaderCom(){
             >
               <ul className="navbar-nav me-auto  mb-lg-0 gap-5 m-3 p-2">
                 <li className="nav-item">
-                  <a className="nav-link p-0 text-secondary fs-5">Home</a>
+                  <a className="nav-link p-0 text-secondary fs-5" href="#Service">Service</a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link p-0 text-secondary fs-5">Service</a>
+                  <a className="nav-link p-0 text-secondary fs-5" href="#Skils">Skils</a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link p-0 text-secondary fs-5">Contact</a>
+                  <a className="nav-link p-0 text-secondary fs-5" href="#Projects">Projects</a>
                 </li>
                 {/* switch litgh dark mode */}
                 {/* <SwitchButoon></SwitchButoon> */}

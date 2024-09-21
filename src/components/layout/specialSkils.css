@@ -10,7 +10,7 @@
         width: 118%;
     }
 }
-@media (min-width: 1023px ) {
+@media (min-width: 990px ) {
     .skill-progress-single-item {
         coloe:red !important;
         width: 93% !important;

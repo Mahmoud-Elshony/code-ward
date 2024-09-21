@@ -65,6 +65,7 @@ export default function CounterSection() {
           </h6>
         </div>
       </div>
+      <p id="Projects" ></p>
     </div>
     </>
   );

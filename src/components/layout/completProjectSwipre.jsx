@@ -45,7 +45,11 @@ const TemplateShowcase = () => {
         modules={[Navigation, Pagination]}
         className="mySwiper"
         spaceBetween={50}
-        
+        // height={"75vh"}
+        style={{
+          // height: "100%",
+          overflow: "hidden",
+        }}
         // slidesPerView={2}
         controller={true}
         breakpoints={{
@@ -70,7 +74,7 @@ const TemplateShowcase = () => {
         // width={80}
       >
         {templates.map((template, index) => (
-          <SwiperSlide key={index}>
+          <SwiperSlide key={index} style={{height:500}}>
             <div
               className="template-card text-white"
               style={{

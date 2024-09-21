@@ -4,6 +4,7 @@ import './components/layout/header.css'
 import SpecialSkilsComponent from "./components/layout/specialSkils"
 import CounterSection from "./components/layout/counterDisplaySection"
 import TemplateShowcase from "./components/layout/completProjectSwipre"
+import Footer from "./components/layout/footer"
 function App() {
   return (
     <>
@@ -13,6 +14,7 @@ function App() {
     <SpecialSkilsComponent></SpecialSkilsComponent>
     <CounterSection></CounterSection>
     <TemplateShowcase></TemplateShowcase>
+    <Footer></Footer>
   </>
   )
 }
