@@ -2,7 +2,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "./mainLayout.css";
 import { HiArrowDownTray } from "react-icons/hi2";
 import ServicesSwiper from "./servesSiper";
-import codewardImgPath from "../../assets/imgs/mahmoud-whitoutbg1.png";
+import codewardImgPath from "../../assets/imgs/mahmoud-whitoutbg1.webp";
 import { FaFacebook, FaGithub, FaLinkedin } from "react-icons/fa";
 export default function MainLayout() {
   return (

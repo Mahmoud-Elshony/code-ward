@@ -4,21 +4,22 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 import { Navigation, Pagination } from "swiper/modules";
-import codementorImg from "../../assets/imgs/codementor-sreenshoot.jpeg";
+import codementorImg from "./../../assets/imgs/codementor-sreenshoot.webp";
+import ecomFrontImg from "./../../assets/imgs/e-com-front.webp";
 const TemplateShowcase = () => {
   const templates = [
     {
       name: "Codementor",
       description: "https://codementor-ward.vercel.app/",
       category: "FrontEnd / React / MUI",
-      imageUrl: "/src/assets/imgs/codementor-sreenshoot.jpeg",
+      imageUrl: codementorImg,
     },
     {
       name: "E-Commerce Frontend",
       description:
         "https://alwaleedibrahim.github.io/e-commerce-frontend/pages/home.html",
       category: "FrontEnd / Javacript / HTML / Css",
-      imageUrl: "/src/assets/imgs/e-com-front.jpeg",
+      imageUrl: ecomFrontImg
     },
   ];
 
@@ -54,7 +55,7 @@ const TemplateShowcase = () => {
           },
           768: {
             // width: 768,
-            slidesPerView: 1,
+            slidesPerView: 2,
           },
           1024: {
             // width: 1024,

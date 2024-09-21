@@ -1,6 +1,6 @@
 import React, { useEffect, useRef } from "react";
 // import './header.css'
-import Logo from "/src/assets/imgs/warda1443.png";
+import Logo from "/src/assets/imgs/warda1443.webp";
 import { MdKeyboardDoubleArrowRight } from "react-icons/md";
 import "./header.css";
 import SwitchButoon from "./darkLightButton";
