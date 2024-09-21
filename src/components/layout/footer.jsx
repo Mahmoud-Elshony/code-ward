@@ -11,7 +11,7 @@ import Logo from "/src/assets/imgs/warda1443.webp";
 
 export default function Footer() {
   return (
-    <div>
+    <div style={{backgroundColor: "rgb(40, 42, 55)"}}>
       <p style={{ visibility: "hidden" }}>
         لا حول ولا قوة الا بالله السميع العليم
       </p>
