@@ -48,7 +48,7 @@ export default function ServicesSwiper() {
               <span className="circle-top-left three"></span>
             </div>
             <div className="img-fluid col-3">
-              <img src="service-icon-1.webp" />
+              <img width="58" height="58" src="service-icon-1.webp" />
             </div>
             <h4 className="text-white pt-5">UI/UX Design</h4>
             <ul className="text-white-50 pt-3 list-unstyled">
@@ -91,7 +91,7 @@ export default function ServicesSwiper() {
               <span className="circle-top-left three"></span>
             </div>
             <div className="img-fluid col-3">
-              <img src="service-icon-2.webp" />
+              <img width="58" height="58" src="service-icon-2.webp" />
             </div>
             <h4 className="text-white pt-5">BackEnd</h4>
             <ul className="text-white-50 pt-3 list-unstyled">
@@ -134,7 +134,7 @@ export default function ServicesSwiper() {
               <span className="circle-top-left three"></span>
             </div>
             <div className="img-fluid col-3">
-              <img src="service-icon-3.webp" />
+              <img width="58" height="58" src="service-icon-3.webp" />
             </div>
             <h4 className="text-white pt-5">FronEnd</h4>
             <ul className="text-white-50 pt-3 list-unstyled">
@@ -177,7 +177,7 @@ export default function ServicesSwiper() {
               <span className="circle-top-left three"></span>
             </div>
             <div className="img-fluid col-3">
-              <img src="service-icon-1.webp" />
+              <img width="58" height="58" src="service-icon-1.webp" />
             </div>
             <h4 className="text-white pt-5">UI/UX Design</h4>
             <ul className="text-white-50 pt-3 list-unstyled">
@@ -220,7 +220,7 @@ export default function ServicesSwiper() {
               <span className="circle-top-left three"></span>
             </div>
             <div className="img-fluid col-3">
-              <img src="service-icon-2.webp" />
+              <img width="58" height="58" src="service-icon-2.webp" />
             </div>
             <h4 className="text-white pt-5">BackEnd</h4>
             <ul className="text-white-50 pt-3 list-unstyled">
@@ -263,7 +263,7 @@ export default function ServicesSwiper() {
               <span className="circle-top-left three"></span>
             </div>
             <div className="img-fluid col-3">
-              <img src="service-icon-3.webp" />
+              <img width="58" height="58" src="service-icon-3.webp" />
             </div>
             <h4 className="text-white pt-5">FronEnd</h4>
             <ul className="text-white-50 pt-3 list-unstyled">
