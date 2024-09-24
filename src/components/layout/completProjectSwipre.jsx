@@ -88,8 +88,13 @@ const TemplateShowcase = () => {
                 src={template.imageUrl}
                 style={{
                   opacity: 0.1,
-                  transform: "rotate(-45deg) translateY(-16%) translateX(66%)",
+                  transform: "rotate(-45deg) translate(323px, -113px)",
+                  
+
+
+                  // width: "100px"
                 }}
+                
               />
               <div
                 style={{

@@ -10,9 +10,10 @@
   height: 300px;
 }
 
-.swiper-slide img {
+.swiper-slide .template-card img {
   display: block;
-  width: 100%;
+  width: 400px;
+  height: 1143px;
 }
 .swiper-pagination {
   display: none;
